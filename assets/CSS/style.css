@@ -983,6 +983,9 @@ header.sticky {
     opacity: 1;
     background: -webkit-linear-gradient(135deg, var(--primary-color) 0%, #ca996482 100%);
     -webkit-background-clip: text;
+    background-clip: text;
+    background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
@@ -1093,6 +1096,7 @@ header.sticky {
     height: 60px;
     background: -webkit-linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     padding: 0;
     animation: city 1s ease;
@@ -1168,6 +1172,34 @@ header.sticky {
 }
 
 /* End Tab CSS */
+
+/* Amenities Card Styles */
+.amenities-body {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px 0;
+}
+
+.amenities-card {
+    background-color: #1a2a3a; /* Dark background */
+    color: #ffffff; /* White text */
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners */
+    border: 2px dotted #667788; /* Dotted border */
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 80px; /* Ensure consistent height */
+}
+
+.amenities-card p {
+    margin: 0;
+}
+
 /* Start Sneak Peek */
 .sneak-peek-body .content {
     max-width: 100%;
@@ -1691,9 +1723,7 @@ button.carousel-control-next div {
         margin-left: 10px;
     }
 }
-.txt{
-    
-}
+
 @media(max-width:767px) {
     .custom-position {
         position: relative;
