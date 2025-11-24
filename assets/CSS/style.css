@@ -1,6 +1,6 @@
 :root {
     --title-color: #111;
-    --primary-color: #e6b84e;
+    --primary-color: #192a3b;
     --secound-color: #565857;
     --shadow-props: 0 1px 8px rgb(0 0 0 / 20%);
 }
@@ -151,7 +151,7 @@ i.ri-download-2-fill.slide-down {
     font-weight: 400;
     position: relative;
     text-transform: uppercase;
-    color: #fff;
+    color: #192a3b;
 }
 
 .contact-btn {
@@ -170,8 +170,8 @@ i.ri-download-2-fill.slide-down {
 
 .download-brochure-link {
     color: #fff;
-    background-color: #e6b84e;
-    border: 2px solid #e6b84e;
+    background-color: #192a3b;
+    border: 2px solid #192a3b;
     display: inline-flex;
     align-items: center;
     border-radius: 5px;
@@ -211,7 +211,7 @@ i.ri-download-2-fill.slide-down {
 }
 
 .custom-nav-item a:hover {
-    color: #c3935f !important;
+    color: #192a3b !important;
     /* Change color on hover for better UX */
 }
 
@@ -422,7 +422,7 @@ header.sticky {
 
 .close-popup span {
     font-size: 16px;
-    background-color: #c3935f;
+    background-color: #192a3b;
     color: #fff;
     padding: 3px 7px;
     text-decoration: none;
@@ -1178,22 +1178,22 @@ header.sticky {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-    padding: 20px 0;
+    padding: 10px 0;
 }
 
 .amenities-card {
     background-color: #1a2a3a; /* Dark background */
     color: #ffffff; /* White text */
-    padding: 20px;
+    padding: 15px;
     border-radius: 10px; /* Rounded corners */
     border: 2px dotted #667788; /* Dotted border */
     text-align: center;
-    font-size: 18px;
+    font-size: 12pt;
     font-weight: 600;
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 80px; /* Ensure consistent height */
+    min-height: 40px; /* Ensure consistent height */
 }
 
 .amenities-card p {
@@ -1490,7 +1490,7 @@ span.call-us-fields.open_enquiry_form i {
 #fixed-footer {
     padding: 5px 0px;
     /* margin: 0 15px; */
-    background-color: purple;
+    background-color: #192a3b;
     color: #fff;
     border-radius: 100px;
 }
@@ -1609,7 +1609,7 @@ button.carousel-control-next div {
 }
 
 .call-btn-bottom {
-    background-color: purple;
+    background-color: #192a3b;
     border-radius: 0 5px 5px 0;
     color: #fff;
 }
@@ -2259,7 +2259,7 @@ form>div:nth-child(6)>div:nth-child(1)>div>label {
     right: 0;
     z-index: 1000;
     transition: all 0.3s ease-out;
-    background-color: purple;
+    background-color: white;
 }
 
 #header.animated {
