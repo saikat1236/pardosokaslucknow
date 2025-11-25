@@ -142,13 +142,14 @@ i.ri-download-2-fill.slide-down {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
     transition: all 0.5s;
     cursor: pointer;
-    font-size: 14px;
+    gap: 10px;
+    font-size:18px;
     line-height: 26px;
-    font-weight: 400;
+    font-weight: 800;
     position: relative;
     text-transform: uppercase;
     color: #192a3b;
@@ -793,7 +794,7 @@ header.sticky {
 .play_pause_button {
     display: block;
     margin-top: 10px;
-    color: #c3935f;
+    color: #192a3b;
     font-size: 5em;
     border: none;
     border-radius: 5px;
@@ -807,7 +808,7 @@ header.sticky {
 }
 
 .play_pause_button:hover {
-    color: #804200;
+    color: #192a3b;
 }
 
 .responsive-iframe {
