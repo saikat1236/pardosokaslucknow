@@ -2068,7 +2068,7 @@ button:hover {
     position: absolute;
     left: 0;
     bottom: 24px;
-    max-width: 650px;
+    max-width: 850px;
     z-index: 1;
     padding: 10px;
     background-color: #ffffffc2;
@@ -2095,12 +2095,14 @@ button:hover {
 }
 
 .rera-project-title {
+    width: 60%;
     font-size: 30px;
     background: var(--primary-color);
     color: #fff;
     position: absolute;
-    top: -25px;
-    padding: 1px 10px;
+    text-align: center;
+    top: -20px;
+    padding: 5px;
     font-weight: 900;
     transform: translate(-50%);
     left: 50%;
@@ -2192,7 +2194,7 @@ form>div:nth-child(6)>div:nth-child(1)>div>label {
     .rera-project-popup {
         position: relative;
         margin: 60px auto 10px auto;
-        width: 90%;
+        width: 100%;
         border: 1px solid #dadada;
     }
 
