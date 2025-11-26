@@ -147,7 +147,7 @@ i.ri-download-2-fill.slide-down {
     transition: all 0.5s;
     cursor: pointer;
     gap: 10px;
-    font-size:18px;
+    font-size:16px;
     line-height: 26px;
     font-weight: 800;
     position: relative;
@@ -1138,7 +1138,8 @@ header.sticky {
         line-height: 26px;
     }
 }
-/* Success Popup Styles */
+
+/* Success Popup Styles */
 #successPopup {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
