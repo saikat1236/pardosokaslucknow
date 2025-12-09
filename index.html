@@ -1432,7 +1432,7 @@
 
                                 if (res.ok) {
                                     // Redirect to thank you page
-                                    window.location.href = '#thankyou';
+                                    window.location.href = 'thank-you.html';
                                     e.target.reset(); // Clears all inputs (works because it's a <form>)
                                 } else {
                                     alert(`Error ${res.status}: ${responseText || 'Failed to send.'}`);
