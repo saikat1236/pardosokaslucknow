@@ -1410,7 +1410,9 @@
                                     property1: bhk,
                                     lead_source_1: 'Pardos Okas',
                                 },
-                                actions: []
+                                actions: [
+                                    
+                                ]
                             };
 
                             console.log('Sending to TeleCRM:', payload);
@@ -1429,17 +1431,8 @@
                                 console.log('Response:', res.status, responseText);
 
                                 if (res.ok) {
-                                    // 1. Download PDF
-                                    
-                    showSuccessPopup();
-    autoCloseSuccess();
-
-                                    // 2. Close popup using your existing function
-                                    setTimeout(() => {
-                                        if (typeof closePop === 'function') {
-                                            closePop();
-                                        }
-                                    }, 300); // Small delay to ensure download starts
+                                    // Redirect to thank you page
+                                    window.location.href = '#thankyou';
                                     e.target.reset(); // Clears all inputs (works because it's a <form>)
                                 } else {
                                     alert(`Error ${res.status}: ${responseText || 'Failed to send.'}`);
