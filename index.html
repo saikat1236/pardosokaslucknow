@@ -18,15 +18,18 @@
     <script src='//forms.cdn.sell.do/t/64e8470c4443ae6d5f19f377.js'></script>
     <link rel="stylesheet" href="assets/CSS/style.css">
     <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RKTCXSE7PN"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RKTCXSE7PN"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-        gtag('config', 'G-RKTCXSE7PN');
-        gtag('config', 'AW-17277877736');
-    </script>
+  // GA4 - explicitly send page view
+  gtag('config', 'G-RKTCXSE7PN', { send_page_view: true });
+
+  // Google Ads conversion tracking (no page view needed)
+  gtag('config', 'AW-17277877736');
+</script>
     <!-- Meta Pixel Code -->
     <script>
         !function (f, b, e, v, n, t, s) {
@@ -268,7 +271,7 @@
       background:#fff; border-radius:12px; 
       font-family:'Segoe UI',Arial,sans-serif; text-align:center;
     ">
-                    <h2 style="margin:0 0 20px; font-weight:600; color:#1a1a1a;">Pardos Okas</h2>
+                    <!-- <h2 style="margin:0 0 20px; font-weight:600; color:#1a1a1a;">Pardos Okas</h2> -->
 
                     <!-- Full Name -->
                     <input type="text" id="fullName" name="fullName" placeholder="Full Name" required style="width:100%; padding:12px 14px; margin:10px 0;
@@ -1405,7 +1408,7 @@
                                     rating: 0,
                                     status: 'Fresh',
                                     property1: bhk,
-                                    lead_source_1: 'Jashn Website',
+                                    lead_source_1: 'Pardos Okas',
                                 },
                                 actions: []
                             };
