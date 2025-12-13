@@ -737,6 +737,7 @@
             font-weight:600; font-size:16px; cursor:pointer;
           ">Submit</button>
                     </form>
+
                     <script>
     function showSuccessPopup() {
         document.getElementById('successPopup').style.display = 'flex';
@@ -751,7 +752,7 @@
     function autoCloseSuccess() {
         setTimeout(closeSuccessPopup, 6000);
     }
-</script>
+                    </script>
 
                     <script>
                         // ==== CONFIG: ONLY CHANGE THESE TWO LINES ====
@@ -1139,6 +1140,8 @@
             }
         });
     </script>
+
+    
     <div id="successPopup" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.5); z-index: 1000; justify-content: center; align-items: center;">
         <div style="background-color: #fff; padding: 30px; border-radius: 10px; text-align: center; position: relative;">
             <h4 style="color: #1a2a3a; margin-bottom: 15px;">Thank You!</h4>
@@ -1261,6 +1264,7 @@
             });
         });
     </script>
+
 </body>
 
 </html>
